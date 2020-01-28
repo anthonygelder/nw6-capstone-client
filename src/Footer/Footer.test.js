@@ -1,7 +1,7 @@
 import React from 'react';
-import Landing from './Landing';
+import Footer from './Footer';
 import { shallow } from 'enzyme';
 
 it('renders without crashing', () => {
-    shallow( < Landing /> );
+    shallow( < Footer / > );
 });
